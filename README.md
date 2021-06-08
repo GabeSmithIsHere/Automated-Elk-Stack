@@ -1,4 +1,4 @@
-# Arizona State University Cybersecurity Bootcamp Project
+# University of Texas at Austin Cyber Security Bootcamp Project 1
 
 ## Automated ELK Stack Deployment
 
