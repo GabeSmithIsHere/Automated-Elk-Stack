@@ -41,10 +41,10 @@ The configuration details of each machine may be found below.
 
 | Name       | Function                   | IP Address | Operating System         |
 |------------|----------------------------|------------|--------------------------|
-| Jump Box   | Gateway                    | 10.1.0.7   | Linux (Ubuntu 18.04 LTS) |
-| Web-1      | Web Server - Docker - DVWA | 10.1.0.5   | Linux (Ubuntu 18.04 LTS) |
-| Web-2      | Web Server - Docker - DVWA | 10.1.0.6   | Linux (Ubuntu 18.04 LTS) |
-| ELK-Server | ELK Stack                  | 10.0.0.4   | Linux (Ubuntu 18.04 LTS) |
+| Jump Box   | Gateway                    | 10.0.0.4   | Linux (Ubuntu 18.04 LTS) |
+| Web-1      | Web Server - Docker - DVWA | 10.0.0.5   | Linux (Ubuntu 18.04 LTS) |
+| Web-2      | Web Server - Docker - DVWA | 10.0.0.6   | Linux (Ubuntu 18.04 LTS) |
+| ELK-Server | ELK Stack                  | 10.1.0.4   | Linux (Ubuntu 18.04 LTS) |
 
 ### Access Policies
 
@@ -62,7 +62,7 @@ A summary of the access policies in place can be found in the table below.
 |------------|-------------------------|----------------------------------------------------|
 | Jump-Box   | No                      | Personal IP Address                                |
 | Web-1      | Yes Thru Load Ballancer | 13.66.204.159 LB Public IP 10.0.0.4 - JumpBox      |
-| Web-2      | Yes Thru Load Ballancer | 13.66.204.159 LB Public IP 10.0.0.4 JumpBox        |
+| Web-2      | Yes Thru Load Ballancer | 13.66.204.159 LB Public IP 10.0.0.4 - JumpBox      |
 | ELK-Server | No                      | SSH 10.0.0.4 - JumpBox HTTP Port 5601 Personal IP  |
 
 ### Elk Configuration
@@ -83,8 +83,8 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-* Web-1 10.1.5
-* Web-2 10.1.6
+* Web-1 10.0.0.5
+* Web-2 10.0.0.6
 
 We have installed the following Beats on these machines:
 * Filebeat
