@@ -61,8 +61,8 @@ A summary of the access policies in place can be found in the table below.
 | Name       | Publicly Accessible     | Allowed IP Address                                 |
 |------------|-------------------------|----------------------------------------------------|
 | Jump-Box   | No                      | Personal IP Address                                |
-| Web-1      | Yes Thru Load Balancer  | 13.66.204.159 LB Public IP 10.0.0.4 - JumpBox      |
-| Web-2      | Yes Thru Load Balancer  | 13.66.204.159 LB Public IP 10.0.0.4 - JumpBox      |
+| Web-1      | Yes Through Load Balancer  | 13.66.204.159 LB Public IP 10.0.0.4 - JumpBox      |
+| Web-2      | Yes Through Load Balancer  | 13.66.204.159 LB Public IP 10.0.0.4 - JumpBox      |
 | ELK-Server | No                      | SSH 10.0.0.4 - JumpBox HTTP Port 5601 Personal IP  |
 
 ### Elk Configuration
