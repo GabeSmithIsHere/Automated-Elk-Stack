@@ -12,7 +12,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   * [my-playbook.yml](YML-Playbooks/my-playbook.yml) - used to install DVWA servers
   * [elk-playbook.yml](YML-Playbooks/elk-playbook.yml) - used to install ELK Server
     * [filebeat-playbook.yml](YML-Playbooks/filebeat-playbook.yml) - Used to install and configure Filebeat on Elk Server and DVWA servers
-    * [metricbeat-playbook.yml](YML-Playbook) - Used to install and configure Metricbeat on Elk Server and DVWA servers
+    * [metricbeat-playbook.yml](YML-Playbook/metricbeat-playbook.yml) - Used to install and configure Metricbeat on Elk Server and DVWA servers
 
 This document contains the following details:
 - Description of the Topology
