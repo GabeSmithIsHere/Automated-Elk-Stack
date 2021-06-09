@@ -61,8 +61,8 @@ A summary of the access policies in place can be found in the table below.
 | Name       | Publicly Accessible     | Allowed IP Address                                 |
 |------------|-------------------------|----------------------------------------------------|
 | Jump-Box   | No                      | Personal IP Address                                |
-| Web-1      | Yes Through Load Balancer  | 13.66.204.159 LB Public IP 10.0.0.4 - JumpBox      |
-| Web-2      | Yes Through Load Balancer  | 13.66.204.159 LB Public IP 10.0.0.4 - JumpBox      |
+| Web-1      | Yes Through Load Balancer  | 20.85.216.14 LB Public IP 10.0.0.4 - JumpBox      |
+| Web-2      | Yes Through Load Balancer  | 20.85.216.14 LB Public IP 10.0.0.4 - JumpBox      |
 | ELK-Server | No                      | SSH 10.0.0.4 - JumpBox HTTP Port 5601 Personal IP  |
 
 ### Elk Configuration
@@ -75,7 +75,7 @@ The playbook implements the following tasks:
 1. Install Docker.io and pip3
 2. Increases VM memory
 3. Download and Configure elk docker container
-4. Sets Published Ports
+4. Set Published Ports
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
