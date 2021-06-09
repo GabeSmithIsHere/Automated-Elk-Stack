@@ -134,8 +134,3 @@ http://publicip(elkserver):5601
 7. cd /etc/ansible/
 8. ansible-playbook beats-playbook.yml (Installs and Configures Beats)
 9. Open a new browser on Personal Workstation, navigate to (ELK-Server-PublicIP:5601/app/kibana) - This will bring up Kibana Web Portal
-
-
-### References
-Filebeat: Lightweight Log Analysis &amp; Elasticsearch. (n.d.). Retrieved August 22, 2020, from https://www.elastic.co/beats/filebeat
-Metricbeat: Lightweight Shipper for Metrics. (n.d.). Retrieved August 22, 2020, from https://www.elastic.co/beats/metricbeat
