@@ -104,7 +104,7 @@ SSH into the control node and follow the steps below:
 
 Which file is the playbook?
 The playbook files are:
-* [elk-playbook.yml](YML-Playbooks/elk-playbook.yml) - used to install ELK Server
+* [elk-playbook.yml](YML-Playbooks/elk-playbook.yml) - Used to install ELK Server
   * [filebeat-playbook.yml](YML-Playbooks/filebeat-playbook.yml) - Used to install and configure Filebeat on Elk Server and DVWA servers
   * [metricbeat-playbook.yml](YML-Playbooks/metricbeat-playbook.yml) - Used to install and configure Metricbeat on Elk Server and DVWA servers
 
